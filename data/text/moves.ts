@@ -1251,7 +1251,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	cut: {
 		name: "Cut",
-		shortDesc: "No additional effect.",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
 	},
 	darkestlariat: {
 		name: "Darkest Lariat",
@@ -1612,8 +1613,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	drainingkiss: {
 		name: "Draining Kiss",
-		desc: "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-		shortDesc: "User recovers 75% of the damage dealt.",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 50% of the damage dealt.",
 	},
 	drainpunch: {
 		name: "Drain Punch",
@@ -3147,8 +3148,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	hurricane: {
 		name: "Hurricane",
-		desc: "Has a 30% chance to confuse the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
-		shortDesc: "30% chance to confuse target. Can't miss in rain.",
+		desc: "This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
+		shortDesc: "Can't miss in rain.",
 		gen7: {
 			desc: "Has a 30% chance to confuse the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%.",
 		},
@@ -5546,12 +5547,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	scald: {
 		name: "Scald",
-		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-		shortDesc: "30% chance to burn the target. Thaws target.",
-		gen5: {
-			desc: "Has a 30% chance to burn the target.",
-			shortDesc: "30% chance to burn the target.",
-		},
+		desc: "Has a 30% chance to burn the target. The user thaws out if it is frozen.",
+		shortDesc: "30% chance to burn the target. Thaws user.",
 	},
 	scaleshot: {
 		name: "Scale Shot",
@@ -6423,7 +6420,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	strength: {
 		name: "Strength",
-		shortDesc: "No additional effect.",
+		desc: "Has a 10% chance to raise the user's Attack by 1 stage.",
+		shortDesc: "10% chance to raise the user's Attack by 1.",
 	},
 	strengthsap: {
 		name: "Strength Sap",
